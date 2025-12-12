@@ -1,5 +1,5 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/:path*",
       "destination": "http://${GCE_IP_ADDRESS}/:path*"
