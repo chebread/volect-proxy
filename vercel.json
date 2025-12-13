@@ -2,12 +2,12 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "http://${GCE_IP_ADDRESS}",
+      "destination": "http://34.26.119.49",
       "permanent": false
     },
     {
       "source": "/:path*",
-      "destination": "http://${GCE_IP_ADDRESS}/:path*",
+      "destination": "http://34.26.119.49/:path*",
       "permanent": false
     }
   ]
